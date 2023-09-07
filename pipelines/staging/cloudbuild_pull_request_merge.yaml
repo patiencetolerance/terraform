@@ -30,6 +30,6 @@ steps:
     terraform apply -auto-approve -input=false -no-color
 # [END tf-apply]      
 
-logsBucket: gs://staging-ondc-cloud-build-logs
+logsBucket: gs://staging-ondc-cloud-build-logs-onest
 options:
   logging: GCS_ONLY
