@@ -8,7 +8,7 @@
 ## 7. If required, modify resource and storage size of Cloud Run and Cloud SQL.
 
 /* GLOBAL */
-project_id         = "ondc-stag-cloudrun"
+project_id         = "protean-onest-uat"
 region             = "asia-south1"
 zone               = "asia-south1-a"
 secondary_location = "asia-south2"
@@ -69,7 +69,7 @@ psc_prefix_length = "21"
 /* Common Values for Cloud Run */
 
 # Cloud Run
-service_account_email = "staging-crun-sa@ondc-stag-cloudrun.iam.gserviceaccount.com"
+service_account_email = "protean-onest-uat@protean-onest-uat.iam.gserviceaccount.com"
 
 #######################
 ## Registry Service ##
